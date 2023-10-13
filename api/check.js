@@ -27,9 +27,9 @@ async function getTokenResponse(token) {
     );
 
 
-    console.log(res.data.tokenPayloadExternal);
+    console.log(res.data);
 
-    return res.data.tokenPayloadExternal
+    return res.data
 }
 
 module.exports = async (req, res) => {
